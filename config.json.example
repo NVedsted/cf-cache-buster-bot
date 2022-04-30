@@ -1,0 +1,9 @@
+{
+  "allowed_role_ids": ["<IDs of roles that may run this>"],
+  "allowed_guild_ids": ["<IDs of servers where this may be run>"],
+  "cf_service_token": "<A CF service token with permission #cache_purge:edit>",
+  "zone_identifier": "<Your CF zone identifier>",
+  "bot_token": "<Your bot token>",
+  "url_prefix": "https://example.com/files/",
+  "command_prefix": "!"
+}
