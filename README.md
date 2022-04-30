@@ -3,6 +3,19 @@
 This bot allows for people with certain roles on certain Discord servers to clear the cache for URLs beginning with a
 configured prefix.
 
+## Command
+
+The following command is made available:
+
+```
+!clearcache <URL>
+```
+
+Where `!` can be configured to be something else. This will purge the CloudFlare cache for the given URL by
+communicating with the [Purge Files by URL](https://api.cloudflare.com/#zone-purge-files-by-url) endpoint.
+
+This will fail if the URL does not begin with the configured URL prefix.
+
 ## Configuration
 
 All configuration takes place in `config.json`. As a starting point, you can copy `config.json.example`. The fields are:
